@@ -1,6 +1,7 @@
 package by.mnkqn.farm;
 
 public class TrainingGround {
+    
     private String name;
 
     public TrainingGround(String name) {
@@ -10,4 +11,5 @@ public class TrainingGround {
     public String getName() {
         return name;
     }
+    
 }
