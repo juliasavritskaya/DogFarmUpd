@@ -23,9 +23,6 @@ public class CreateCollections {
     private static Dog createDogs(String name, int age) {
         final int puppyMaxAge = 2;
         final int adultMaxAge = 8;
-        Dog dog = null;
-        /* ??? Dog dog;
-        Dog = null;*/
 
         if (age <= puppyMaxAge) {
             dog = new Puppy();
@@ -43,7 +40,7 @@ public class CreateCollections {
             dog.setAge(age);
             return dog;
         }
-        return dog;
+        return null;
     }
 
     public static void fillVetsCollection(List<Vets> vets) {
