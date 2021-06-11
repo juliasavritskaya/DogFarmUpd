@@ -4,6 +4,7 @@ import by.mnkqn.farm.Aviary;
 import by.mnkqn.helpers.Eatable;
 
 public abstract class Dog implements Eatable {
+    
     private String name;
     private int age;
     private boolean trained;
