@@ -1,6 +1,7 @@
 package by.mnkqn.helpers;
 
 public class Jobs {
+    
     private String name;
 
     public Jobs(String name) {
