@@ -69,7 +69,7 @@ public class Main {
 
         for (Dog dog : dogs) {
             dog.eat();
-
         }
+        
     }
 }
