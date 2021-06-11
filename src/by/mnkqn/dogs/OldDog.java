@@ -9,6 +9,6 @@ public class OldDog extends Dog {
 
     public void staysAtAviary() {
         System.out.println(getName() + " stays home at  aviary " + getAviary());
-
     }
+    
 }
