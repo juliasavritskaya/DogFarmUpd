@@ -3,6 +3,7 @@ package by.mnkqn.dogs;
 import by.mnkqn.farm.TrainingGround;
 
 public class Puppy extends Dog {
+    
     private boolean trained;
 
     @Override
