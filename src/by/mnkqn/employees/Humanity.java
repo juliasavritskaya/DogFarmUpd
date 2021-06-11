@@ -30,4 +30,5 @@ public abstract class Humanity implements Eatable, Workable {
     public int getAge() {
         return age;
     }
+    
 }
