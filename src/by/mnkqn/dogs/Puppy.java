@@ -15,8 +15,8 @@ public class Puppy extends Dog {
         setTrained(true);
     }
 
-    @Override
     public void setTrained(boolean trained) {
         this.trained = trained;
     }
+    
 }
